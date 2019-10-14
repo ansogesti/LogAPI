@@ -15,7 +15,7 @@ namespace LogAPI.Data
             //Database.EnsureDeleted();
 
             //Create database
-           // Database.EnsureCreated();
+            Database.EnsureCreated();
         }
 
         public DbSet<LogModel> Logs { get; set; }
